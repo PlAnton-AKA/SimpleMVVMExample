@@ -52,3 +52,11 @@ C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Debug\P
 C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Debug\SimpleMVVMExample.g.resources
 C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Debug\SimpleMVVMExample.Properties.Resources.resources
 C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Debug\SimpleMVVMExample.csproj.GenerateResource.Cache
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\SimpleMVVMExample.exe.config
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Debug\System.Windows.Interactivity.xml

@@ -14,6 +14,8 @@ namespace SimpleMVVMExample
         private ProductModel _currentProduct;
         private ICommand _getProductCommand;
         private ICommand _saveProductCommand;
+        private ICommand _testCommand;
+        
 
         //private PropertyChangedEventHandler prop
 
@@ -102,6 +104,21 @@ namespace SimpleMVVMExample
                     );
                 }
                 return _saveProductCommand;
+            }
+        }
+
+
+
+        public ICommand TestCommand {
+            get {
+                if (_testCommand == null)
+                {
+                    _testCommand = new RelayCommand(
+                            param => SaveProduct(),
+                            param => (ProductId != 4)
+                        );
+                }
+                return _testCommand;
             }
         }
 

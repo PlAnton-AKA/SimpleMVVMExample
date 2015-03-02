@@ -34,3 +34,39 @@ C:\Documents and Settings\Owner\Desktop\Rachel's\SimpleMVVMExample\SimpleMVVMExa
 C:\Documents and Settings\Owner\Desktop\Rachel's\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Documents and Settings\Owner\Desktop\Rachel's\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.exe
 C:\Documents and Settings\Owner\Desktop\Rachel's\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\SimpleMVVMExample.exe.config
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.exe
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.csprojResolveAssemblyReference.cache
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\Home\HomeView.baml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\Home\HomeView.g.cs
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\Products\ProductsView.g.cs
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\App.g.cs
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample_MarkupCompile.cache
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample_MarkupCompile.lref
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\SimpleMVVMExample.exe
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\SimpleMVVMExample.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Extras.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Platform.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\System.Windows.Interactivity.dll
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Extras.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\GalaSoft.MvvmLight.Platform.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\ApplicationView.g.cs
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\ApplicationView.baml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\Products\ProductsView.baml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.g.resources
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.Properties.Resources.resources
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\SimpleMVVMExample.csproj.GenerateResource.Cache
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\App.baml
+C:\Users\apluzhnikov\Desktop\SimpleMVVMExample\SimpleMVVMExample\obj\x86\Release\Stile_resources.baml

@@ -35,30 +35,7 @@
 
                 </Grid>
             </Border>
-        </DataTemplate>
-        <DataTemplate x:Key="test2" DataType="{x:Type local:ProductModel}">
-            <Border BorderBrush="Black" BorderThickness="1" Padding="20">
-                <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition />
-                        <RowDefinition />
-                        <RowDefinition />
-                        <RowDefinition />
-                    </Grid.RowDefinitions>
-
-                    <TextBlock Grid.Column="0" Grid.Row="0"  Text="ID" VerticalAlignment="Center" Margin="5" />
-                    <TextBox Grid.Row="0" Grid.Column="1"  Text="{Binding ProductId}" Margin="5" Width="150" />
-
-                    <TextBlock Grid.Column="0" Grid.Row="1"  Text="Name" VerticalAlignment="Center" Margin="5" />
-                    <TextBox Grid.Row="1" Grid.Column="1"  Text="{Binding ProductName}" Margin="5" Width="150" />                    
-
-                </Grid>
-            </Border>
-        </DataTemplate>
+        </DataTemplate>        
     </UserControl.Resources>
     
     <DockPanel Margin="20">
@@ -71,15 +48,12 @@
                         Command="{Binding Path=SaveProductCommand}" Width="100" />
 
             <Button Content="Get Product" DockPanel.Dock="Right" Margin="10,2" VerticalAlignment="Center"
-                        Command="{Binding Path=GetProductCommand}" IsDefault="True" Width="100" />
+                        Command="{Binding Path=GetProductCommand}" Width="100" IsDefault="True" />
             
             
         </DockPanel>
-        <Button DockPanel.Dock="Bottom" IsDefault="True" Name="testEvent">TEST</Button>
+        <Button DockPanel.Dock="Bottom" IsDefault="True" Name="testEvent" Command="{Binding Path=TestCommand}" >TEST</Button>
         <!--<ContentControl DockPanel.Dock="Left" Margin="10" Content="{Binding Path=CurrentProduct}"/>-->
         <ContentControl DockPanel.Dock="Left" Margin="10" Content="{Binding Path=CurrentProduct}" ContentTemplate="{StaticResource test1}"/>
-        <ContentControl DockPanel.Dock="Right" Margin="10" Content="{Binding Path=CurrentProduct}" ContentTemplate="{StaticResource test2}"/>
-
-        
     </DockPanel>
 </UserControl>
