@@ -9,6 +9,7 @@
         >
 
     <Window.Resources>
+        <SolidColorBrush x:Key="MainColorBrush" Color="#519cbc"/>
         <DataTemplate DataType="{x:Type local:HomeViewModel}" >
             <local:HomeView />
         </DataTemplate>
@@ -17,31 +18,82 @@
         </DataTemplate>        
     </Window.Resources>
 
-    <DockPanel Background="White">
+
+
+    <DockPanel Background="{StaticResource MainColorBrush}">
         <Border DockPanel.Dock="Left" BorderBrush="Black" BorderThickness="0,0,1,0">
             <ItemsControl ItemsSource="{Binding PageViewModels}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <TabControl DockPanel.Dock="Top" TabStripPlacement="Left" HorizontalAlignment="Stretch">
+
+                        <StackPanel Height="Auto" Width="Auto">
+                            <DockPanel Margin="10,10,10,10">
+                                <Image DockPanel.Dock="Top" Name="tabGeneralImg" Source="img/general_w.png" Margin="0,0,0,10"/>
+                                <TextBlock DockPanel.Dock="Bottom" TextAlignment="Center" TextBlock.FontSize="15" Background="Green">General</TextBlock>
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
+                                        <cmd:EventToCommand Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                                        CommandParameter="{Binding }"                                                        
+                                                        PassEventArgsToCommand="True"                                                          
+                                                        />
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </DockPanel>
+                        </StackPanel>
+                        <DataTemplate.Triggers>
+                            <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource TemplatedParent}}" Value="True">
+                                <Setter TargetName="tabGeneralImg" Property="Source" Value="img/general_b.png"/>
+                            </DataTrigger>
+                        </DataTemplate.Triggers>
+
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        
+        <!--<ItemsControl ItemsSource="{Binding PageViewModels}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Vertical" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TabItem Header="{Binding Name}" HeaderTemplate="{StaticResource tabItemGeneralHeaderTemplate}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                             <i:Interaction.Triggers>
                                 <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
                                     <cmd:EventToCommand Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
                                                         CommandParameter="{Binding }"                                                        
-                                                        PassEventArgsToCommand="True" />
-                                </i:EventTrigger>
+                                                        PassEventArgsToCommand="True"                                                          
+                                                        />
+                                </i:EventTrigger>                                
                             </i:Interaction.Triggers>
-                            <TabItem Header="{Binding Name}" Style="{StaticResource firstTab}"/>
-                        </TabControl>
-
-
-                        <!--<Button Content="{Binding Name}"
-                                Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                                CommandParameter="{Binding }"
-                                Margin="2,5"/>-->
+                        </TabItem>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
-            </ItemsControl>
+            </ItemsControl>-->
+
+            <!--<TabControl TabStripPlacement="Left" ItemsSource="{Binding PageViewModels}">                
+                <TabControl.ItemTemplate>
+                    <DataTemplate>
+                        <TabItem Header="{Binding Name}" >
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
+                                    <cmd:EventToCommand Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                                        CommandParameter="{Binding }"                                                        
+                                                        PassEventArgsToCommand="True"                                                          
+                                                        />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TabItem>                        
+                    </DataTemplate>
+                </TabControl.ItemTemplate>
+            </TabControl> -->
         </Border>
         <ContentControl Content="{Binding CurrentPageViewModel}" />
     </DockPanel>
 </Window>
+
+<!--<Button Content="{Binding Name}"
+                                Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                CommandParameter="{Binding }"
+                                Margin="2,5"/>-->
